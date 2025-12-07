@@ -141,8 +141,7 @@ model/supermart_catboost_sales_model.pkl
 ------
 
 **🚀 Streamlit Application**
-
-https://share.streamlit.io/
+https://supermart-grocery-sales-analytics-datascitistkaushlendra242.streamlit.app/
 
 A full Streamlit app is included to run real-time predictions.
 
