@@ -49,6 +49,11 @@ supermart-grocery-sales-analytics
 └── README.md
 
 
+
+
+```
+
+
 **📊 Key Exploratory Data Insights (EDA)**
 
 ✔ Category-wise Sales
@@ -74,6 +79,8 @@ supermart-grocery-sales-analytics
 - Tirunelveli
 
 - Perambalur
+------
+
 
 **🔧 Feature Engineering**
 
@@ -101,9 +108,11 @@ The following features were engineered to boost model performance:
 
 - Outlier removal (1% top and bottom)
 
-**�� Target Transformation**
+**🎯 Target Transformation**
 
 * Log_Sales = log1p(Sales) applied for stable model training
+
+  -------
 
 **🤖 Modeling & Performance**
 
@@ -129,7 +138,11 @@ CatBoost outperformed all baseline models due to its ability to handle:
 
 model/supermart_catboost_sales_model.pkl
 
+------
+
 **🚀 Streamlit Application**
+
+https://share.streamlit.io/
 
 A full Streamlit app is included to run real-time predictions.
 
@@ -148,19 +161,30 @@ The app allows users to:
 
 - Get predicted Sales instantly
 
+---------
+
+
 **📦 Installation**
 
 Install all dependencies:
 
 pip install -r requirements.txt
 
+---------
+
 **🔮 Business Value Delivered**
 
 ✔ Accurate sales forecasting
+
 ✔ Data-driven discount & promotion planning
+
 ✔ Optimized inventory management
+
 ✔ Clear insights for regional sales strategy
+
 ✔ Deployable prediction app for real-time usage
+
+---------
 
 **🏅 Tools & Technologies**
 
@@ -182,10 +206,14 @@ pip install -r requirements.txt
 
 - ReportLab / DOCX (Report Generation)
 
+--------------
+
 **📝 Project Authors**
 
 *Kaushlendra Pratap Singh*
 Data Analyst & Machine Learning& Data Scienist Practitioner
+
+------------
 
 **⭐ Support the Project**
 
